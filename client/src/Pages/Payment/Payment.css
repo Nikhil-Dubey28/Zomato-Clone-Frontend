@@ -1,0 +1,87 @@
+/* PaymentPage.css */
+
+/* Main container styles */
+.main-container {
+    
+    max-width: 1200px;
+    margin: 0 auto;
+    
+  }
+  
+  /* Header section styles */
+  .title {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .item-info {
+    font-size: 14px;
+    color: #888;
+    margin-bottom: 50px;
+  }
+  
+  /* Body section styles */
+  .bold-text {
+    font-weight: bold;
+  }
+  
+  .muted-text {
+    color: #888;
+  }
+  
+  /* Delivery info styles */
+  .delivery-info {
+    margin-bottom: 50px;
+  }
+  
+  /* Payment method section styles */
+  .payment-heading {
+    text-align: left;
+  }
+  
+  .card-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .payment-card {
+    width: 48%;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  
+  .small-image {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+  }
+  
+  .payment-details {
+    flex-grow: 1;
+  }
+  
+  .payment-title {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  .payment-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4caf50;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .checkbox {
+    float: right;
+    margin-top: 8px;
+    margin-right: 5px;
+  }
+  

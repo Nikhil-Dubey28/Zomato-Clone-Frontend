@@ -1,0 +1,59 @@
+/* DeliveryAddressContainer.css */
+
+/* Main container styles */
+.container {
+    /* display: flex; */
+    /* justify-content: space-between; */
+    /* max-width: 100%; */
+    flex: 0.7;
+    
+    
+  }
+  
+  /* Styling for the address container */
+  .card {
+    width: 100%;
+    margin-right: 10px; /* Adjust margin as needed */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Styling for saved addresses */
+  .card-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .saved-address-card {
+    cursor: pointer;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+  }
+  
+  .saved-address-card:hover {
+    background-color: #f9f9f9;
+  }
+  
+  /* Styling for selected address */
+  .selected-address-card {
+    margin-top: 20px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  .selected-address-card p {
+    margin-bottom: 8px;
+  }
+  
+  /* Change button styles */
+  .change-address-button {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  

@@ -1,0 +1,65 @@
+/* YourComponentName.css */
+
+.main-container-order {
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    padding: 20px 20px;
+    margin-top: 30px;
+  }
+  .image-container {
+    margin-right: 30px;
+  }
+  
+  .first-container {
+    height: 50%;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    padding: 20px;
+    /* background-color: #f5f5f5; */
+  }
+  
+  .details-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .heading {
+    display: flex;
+    flex-direction: column;
+    font-weight: 500;
+    font-size: 18px;
+  }
+  
+
+  .order-details {
+    font-weight: 200;
+    color: grey;
+    font-size: 14px;
+  }
+  .tick-icon {
+    color: #5cb85c; /* Green color for the tick icon */
+  }
+  
+  .second-container {
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff; /* White background for the second container */
+  }
+  
+  .items-details {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .total-paid {
+    font-weight: 500;
+    font-size: 16px;
+  }
+  

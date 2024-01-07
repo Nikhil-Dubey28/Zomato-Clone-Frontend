@@ -1,0 +1,24 @@
+.categories-container {
+    flex: 0 0 200px;
+    overflow-y: auto;
+  }
+  
+  .category-heading {
+    padding: 8px;
+    cursor: pointer;
+  }
+  
+  .selected {
+    background-color: #e0e0e0;
+  }
+  
+  .food-items-container {
+    flex: 1;
+    overflow-y: auto;
+    border-left: 1px solid #ccc;
+  }
+  
+  .food-items {
+    height: 2000px; /* Adjust the height as needed */
+  }
+  

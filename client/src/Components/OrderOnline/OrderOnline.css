@@ -1,0 +1,323 @@
+
+  
+  .navbar {
+    background-color: #fff;
+    padding: 10px 20px;
+  }
+  
+  .navbar-brand {
+    font-weight: bold;
+    font-size: 18px;
+  }
+  .custom-nav {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+   
+    
+  }
+
+
+  
+  .nav-link {
+    color: #333;
+    font-size: 16px;
+  }
+  
+  .nav-dropdown {
+    color: #333;
+    font-size: 16px;
+  }
+  
+  .delivery-tab {
+    padding: 20px;
+    
+  }
+
+  
+  .delivery-heading {
+    font-size: 2.0rem;
+    font-weight: 400;
+    margin-top: 24px;
+  }
+  
+  .filter-container {
+    margin-top: 24px;
+  }
+
+  .filter-container select {
+    font-size: 18px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    padding: 8px 15px;
+    background-image: linear-gradient(to bottom, #ffffff, #f2f2f2);
+    color: #333333;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    cursor: pointer;
+    margin-bottom: 40px;
+    
+   
+  }
+
+  /* Styling for select dropdown arrow */
+.filter-container select::-ms-expand {
+  display: none;
+}
+
+/* Styling for select dropdown options */
+.filter-container select option {
+  font-size: 16px;
+  background-color: #ffffff;
+  color: #333333;
+  
+}
+
+/* Hover effect for select */
+.filter-container select:hover {
+  border-color: #999999;
+}
+
+/* Focus effect for select */
+.filter-container select:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/* Transition for smooth animation */
+.filter-container select {
+  transition: all 0.3s ease;
+}
+
+  .restaurants {
+    display: flex;
+    
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+    justify-content: center;
+    max-height: 800px;
+    
+    scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+  overflow-y: scroll;
+  transition: transform 450ms;
+  
+  }
+
+  .restaurants  ::-webkit-scrollbar {
+display: none;
+  }
+ 
+  
+  .restaurant-card {
+    
+    width: 348px;
+    margin: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .restaurant-name {
+    font-size: 18px;
+   
+    margin: 10px 0px;
+    font-weight: 100;
+  }
+  
+  .restaurant-rating {
+    font-size: 16px;
+  }
+  
+  .restaurant-price {
+    font-size: 16px;
+  }
+  
+  .tabs-container {
+    border-bottom: 1px solid #ccc;
+    padding: 8px;
+    margin-top: 120px;
+  }
+  
+  .tab-delivery {
+    font-size: 1.5rem;
+  }
+  .nav-tabs .nav-item {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+
+
+  .restaurant-cuisine {
+    font-size: 14px;
+    color:rgb(105, 105, 105);
+    margin-right: 4px;
+  }
+  
+/*   
+  .nav-tabs .nav-link {
+    color: #333;
+    padding: 10px 20px;
+    font-size: 1.3rem !important;
+  } */
+  
+  .nav-tabs .nav-link.active {
+    color: #f00;
+    border-bottom: 2px solid #f00;
+   font-size: 1.3rem;
+   border-left: none;
+   border-right: none;
+   border-top: none;
+  }
+  .delivery-icon {
+    padding: 10px;
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 128, 0.781);
+  }
+
+  .nav-tabs .nav-link {
+    
+    color: #333;
+    padding: 10px 20px;
+   font-size: 1.3rem !important;
+   border-left: none;
+   border-right: none;
+   border-top: none;
+  }
+
+
+
+ 
+  
+  .navbar-style {
+    /* padding: 20px; */
+    background-color: white;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 16px;
+  }
+  
+  .zomato-logo {
+    font-size: 44px;
+    font-weight: bold;
+    color: black;
+    height: 28px;
+   text-align: center;
+   margin-bottom: 8px;
+  }
+  
+  .search-bar {
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    width: 50%;
+    box-shadow: #333;
+    
+  }
+
+  .search-bar-input {
+    height: 56px;
+    border-radius: 10px;
+  }
+  
+  /* .restaurants {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0px 0;
+    
+  } */
+  
+  
+
+ 
+
+  .zomato {
+    padding: 0 20px;
+    margin: 0 auto;
+    max-width: 1200px;
+    margin-bottom: 120px;
+  }
+  
+  .navbar {
+    justify-content: space-between;
+  }
+  
+  .search-bar {
+    margin-left: auto;
+  }
+/*   
+  .restaurants {
+    justify-content: center;
+  } */
+  
+  .restaurant-card {
+    text-align: center;
+    cursor: pointer;
+    transition: transform 450ms;
+    
+  }
+  .restaurant-card:hover {
+    transform: scale(1.08);
+  }
+  
+  .restaurant-card {
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .restaurant-rating {
+    /* background-color: #0f0; */
+    /* color: #fff; */
+    /* padding: 5px 10px; */
+    border-radius: 5px;
+    text-align: center;
+    width: 36px;
+    padding: 2px 2px;
+    background-color:rgb(38, 126, 62);
+    color: white;
+    margin: 10px 0;
+  }
+
+  .restaurant-image {
+    width: 100%;
+    height: 240px;
+    border-radius: 14px;
+    
+  }
+  
+  
+@media screen and (max-width: 768px) {
+  .filter-container{
+    display: flex;
+    flex-direction: column;
+  }
+  .filter-container select {
+    width: 140px;
+    margin-bottom: 20px;
+    margin-top: 8px;
+  }
+  
+}
+@media screen and (max-width: 991.5px) {
+  .search-bar {
+    display: none;
+  }
+  
+}
+@media screen and (min-width: 992px) {
+  .search-bar-mobile {
+    display: none;
+  }
+}
+
+@media  screen and (max-width: 376px) {
+  .tabs-container {
+    margin-top: 200px;
+  }
+}
+
+

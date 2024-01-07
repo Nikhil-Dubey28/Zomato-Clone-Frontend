@@ -1,0 +1,36 @@
+.order-success-header-body {
+    display: flex;
+    flex-direction: column;
+}
+.order-success-header-body img {
+    margin-right: 20px;
+}
+.order-success-header-body h3 {
+    font-size: 16px;
+}
+
+.order-placed h1 {
+    font-size: 28px;
+}
+
+.order-placed-container {
+    margin-bottom: 30px;
+}
+
+.order-success-header-container {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+   padding: 20px 20px;
+}
+
+.order-cart-body {
+    padding: 20px 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.order-id h3 {
+    font-size: 18px;
+    font-weight: 700;
+}
+.order-id {
+    margin-bottom: 20px;
+}

@@ -1,0 +1,129 @@
+/* RestaurantPage.css */
+
+    /* list-style: none;
+    padding: 0;
+    display: flex; */
+    /* justify-content: space-between; */
+    /* flex-direction: column;
+    align-items: flex-start;
+    margin: 0; */
+  
+  .cuisine-items {
+max-height: 800px;
+
+    overflow-y: scroll;
+    
+  }
+
+/* FixedButton.css */
+.fixed-button {
+  position: fixed;
+  bottom: 20px; /* Adjust the bottom position as needed */
+  right: 20px;
+  z-index: 999; /* Set a higher z-index to ensure it stays above other content */
+ 
+}
+
+.fixed-button button {
+  /* Style your button as needed */
+  padding: 10px 20px;
+  background-color: #0a0a0a;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  /* Add any other styles you prefer */
+
+}
+
+  
+  .cuisine-categories li {
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 1.2rem;
+  }
+  
+  .cuisine-categories li.selected {
+    background-color: #ff9800; /* Change to your desired color */
+    color: #fff; /* Change to contrasting text color */
+  }
+  
+  .cuisine-categories li:hover {
+    background-color: #f5f5f5; /* Change to your desired hover color */
+    color: #333; /* Change to your desired hover text color */
+  }
+  
+  .rating {
+    width: 44px;
+    text-align: center;
+    background-color: rgb(11, 136, 17); /* Change to your desired color */
+    color: #fff; /* Change to contrasting text color */
+    border-radius: 8px;
+    padding: 5px;
+    font-size: 1.5rem;
+  }
+
+  .food-details > h3 {
+font-size: 20px;
+font-weight: 400;
+  }
+
+  .food-item-header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor:pointer;
+
+  }
+
+
+  .checkboxes {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+   margin-top: 40px;
+  }
+  
+ .label-img {
+  width: 20px;
+  height: 20px;
+  margin-right: 4px;
+ }
+  
+  input[type="checkbox"] {
+    /* Increase width and height */
+    width: 24px;
+    height: 24px;
+    /* Optional: Add some styles to make it more visible */
+     /* Hide default checkbox */
+     margin-top: 3px;
+  }
+  .carrot {
+    height: 20px;
+    width: 20px;
+    /* padding: 10px; */
+    margin-right: 20px;
+    
+  }
+
+  .restaurant-header {
+    margin-top: 120px;
+  }
+  
+
+  .category-name-container {
+     margin-bottom: 24px;
+     margin-top: 24px;
+     border:1px solid #60b246;
+     border-radius: 5px;
+     padding: 8px;
+     padding-right:16px;
+     padding-left:16px;
+     color:#1a1919;
+  }
+
+  

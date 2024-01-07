@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;700&display=swap');
+
+.main{
+    background-color: rgb(248, 248, 248);
+    height: 65vh;
+display: flex;
+justify-content: center;
+}
+.footer-container {
+    width: 1100px;
+    /* background-color: black; */
+    
+   
+}
+
+.footer-header  {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    margin-bottom: 2rem;
+    
+}
+.footer-header h1 {
+    font-size: 28px;
+    
+}
+
+
+.footer-links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.footer-link-header h3 {
+    font-weight: 500;
+    font-size: 1rem;
+    text-transform: capitalize;
+    font-family: 'Poppins','sans-serif';
+    letter-spacing: 1px;
+}
+
+.footer-link-list-container li{
+    list-style: none;
+    color: rgb(105, 105, 105);
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+
+.social-link-container {
+    display: flex;
+    margin-bottom: 2rem;
+}
+.social-link-img{
+    width: 45px;
+    height: 35px;
+}
+.social-link-img-insta {
+    width: 45px;
+    height: 35px;
+}
+.social-link-img-linkedin{
+    width : 32px;
+    height: 32px;
+    margin-top: 2px;
+}
+
+.app-store-img {
+    width: 120px;
+    margin-bottom: 20px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .social-link-container{
+        flex-direction: column;
+    }
+    .footer-links{
+        flex-direction: column;
+    }
+}

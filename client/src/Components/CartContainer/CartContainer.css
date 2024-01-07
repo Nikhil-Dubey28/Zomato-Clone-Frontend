@@ -1,0 +1,103 @@
+/* CartContainer.css */
+
+/* Styles for the main container */
+.cart-container {
+    /* width: 30%; */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    display: flex;
+    flex: 0.3;
+flex-direction: column;
+    
+   
+
+   
+  }
+  
+  /* Header styles */
+  .restaurant-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .restaurant-logo {
+    width: 44px; /* Adjust as needed */
+    height: 44px; /* Adjust as needed */
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+  .restaurant-name {
+    font-weight: bold;
+  }
+  
+  /* Body styles */
+  .cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .cart-item p {
+    margin: 0;
+   
+  }
+  
+  /* Total amount styles */
+  .cart-total {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+
+  .billing{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+  }
+  .cart-header {
+    margin-bottom: 24px;
+    /* background-color: #fff; */
+    /* box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); */
+    border-radius: 10px;
+    /* padding: 24px; */
+  }
+  .cart-body{
+    overflow: scroll;
+    scrollbar-width: none;
+  }
+  .bill-total{
+    margin-top: 32px;
+  }
+  
+  .cart-total p {
+    font-weight: bold;
+  }
+
+ .pay-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #60b246;
+  padding: 8px;
+ }
+ .pay-button > button {
+  border: none;
+  color: white;
+  font-weight: bold;
+  outline: none;
+  width: 100%;
+ }
+  
+  @media (max-width: 768px) {
+    .cart-container {
+      min-height: 100vh;
+    }
+  
+    .card {
+      margin-bottom: 20px; /* Adjust margin as needed */
+    }
+  }
